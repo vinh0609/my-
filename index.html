@@ -5,29 +5,42 @@
     <title>Giới thiệu trường, lớp và tổ học tập</title>
     <style>
         body { font-family: Arial, sans-serif; background: #e6f2ff; padding: 20px; }
-        h1, h2 { text-align: center; color: #d60000; }
-        .section { background: white; max-width: 900px; margin: 20px auto; padding: 20px; border-radius: 12px; border-top: 5px solid #d60000; box-shadow: 0 0 10px rgba(0,0,0,0.12); }
+        h1, h2 { text-align: center; color: #003366; }
+        .section { background: white; max-width: 1100px; margin: 20px auto; padding: 20px; border-radius: 12px; border-top: 5px solid #d60000; box-shadow: 0 0px 10px rgba(0,0,0,0.5); }
+        .sections { background: aliceblue; max-width: 1000px;min-height:350px; margin: 20px auto; padding: 20px; border-radius: 12px; box-shadow: 0 0px 10px rgba(0,0,0,0.3); }
         .section img.main-img { width: 100%; max-height: 350px; object-fit: cover; border-radius: 10px; margin-bottom: 10px; }
         .members { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
         .member { display: flex; gap: 15px; padding: 10px; border-radius: 10px; background: #f7faff; transition: 0.3s; }
         .member:hover { background: #e6f0ff; transform: scale(1.02); box-shadow: 0 5px 10px rgba(0,0,0,0.12); }
-        .member img { width: 110px; height: 110px; object-fit: cover; border-radius: 50%; border: 3px solid #d60000; }
+        .member img { width: 110px; height: 110px; object-fit: cover; border-radius: 50%; border: 3px solid deepskyblue; }
         .info p { margin: 4px 0; font-size: 14px; }
+        .menu { position: fixed; top: 0; left: 0; width: 100%; background:#880000; display: flex; gap: 100px; padding: 10px 5px; z-index: 999; box-shadow: 0 3px 10px rgba(0,0,0,0.3);}
+        .menu a { color: white; text-decoration: none; font-weight: bold; transition: 0.3s;}
+        .menu a:hover { color: gold;}
     </style>
 </head>
 <body>
+    <div class="menu">
+    <a href="#truong">Trường</a>
+    <a href="#lop">Lớp</a>
+    <a href="#to">Tổ</a>
+    <a href="#gopy">Góp ý</a>
+</div>
 <h1>GIỚI THIỆU TRƯỜNG, LỚP VÀ TỔ HỌC TẬP</h1>
-<div class="section">
+<div class="section" id="truong">
     <h2>🏫 Trường THPT Hùng Thắng</h2>
     <a href="https://thpthungthang.haiphong.edu.vn/"target="_blank"> <img class="main-img" src="https://i.postimg.cc/Dzw08ynq/baner-truong-2025-p-18720251540-(1).png" alt="Hình ảnh trường"></a>
     <p> Trường THPT Hùng Thắng là ngôi trường có bề dày truyền thống học tập và rèn luyện. Trường có cơ sở vật chất khang trang, môi trường học tập thân thiện và đội ngũ giáo viên tận tâm với học sinh. </p>
+<h2>🗺️ Bản đồ của trường</h2>
+
+<iframe src="https://www.google.com/maps?q=trường%20học&output=embed" width="1100px" height="280px"> </iframe>
 </div>
-<div class="section">
+<div class="section" id="lop">
     <h2>🏫 Lớp 12A8</h2>
     <a href="https://www.tiktok.com/@8k47thpthungthang?_r=1&_t=ZS-93HxX2kdx8G "target="_blank"> <img class="main-img" src="https://i.postimg.cc/wMmkyYDW/4b82047c-776b-4d8b-9630-43cda3dbd5cd.jpg" alt="Hình ảnh lớp học"></a> 
     <p> Lớp 12A8 là tập thể đoàn kết, năng động và luôn tích cực tham gia các hoạt động của nhà trường. Các thành viên trong lớp luôn giúp đỡ nhau trong học tập và cùng nhau phấn đấu đạt kết quả tốt trong các kỳ thi. </p>
 </div>
-<div class="section">
+<div class="section" id ="to">
     <h2>👥 Tổ 4 </h2>
     <a href="https://www.tiktok.com/@4_8k47thptht?_r=1&_t=ZS-93I0QZG9fyH "target="_blank"> <img class="main-img" src="https://i.postimg.cc/Pxy5hCCg/9fc84f19-fc52-492b-9fba-65cb438462e4.jpg" alt="Hình ảnh tổ 4"></a> 
     <p> Tổ 4 gồm các thành viên chăm chỉ, có tinh thần trách nhiệm và luôn hoàn thành tốt  nhiệm vụ học tập được giao. Các bạn trong tổ luôn hỗ trợ nhau để cùng tiến bộ. </p>
@@ -38,7 +51,7 @@
                 <p><b>Họ và tên:</b> Phạm Thị Lam</p>
                 <p><b>Ngày sinh:</b> 29/11/2008</p>
                 <p><b>Chức vụ:</b> Tổ trưởng</p>
-                <p><b>Sở thích:</b> Ăn chơi</p>
+                <p><b>Sở thích:</b> Vui chơi </p>
                 <p><b>Mục tiêu :</b>Muốn trở thành mẹ thiên hạ</p>
             </div>
         </div>
@@ -66,7 +79,7 @@
             <img src="https://i.postimg.cc/7YTvXgsV/3b8e903d-f744-40e1-beef-5bca3afc00b8.jpg">
             <div class="info">
                 <p><b>Họ và tên:</b> Phạm Huy Thành</p>
-               <p><b>Ngày sinh:</b> 30/07/2008</p>
+               <p><b>Ngày sinh:</b> 24/12/2008</p>
                 <p><b>Chức vụ:</b> Thành viên</p>
                 <p><b>Sở thích:</b> Ăn chơi ngủ nghỉ</p>
                 <p><b>Mục tiêu :</b> Đỗ nguyện vọng 1</p>
@@ -116,10 +129,10 @@
             <img src="https://i.postimg.cc/mkmpmnQJ/8c065fbd-d397-4a0e-83a9-725e9bc39529.jpg">
             <div class="info">
                 <p><b>Họ và tên:</b> Phùng Hà My</p>
-                <p><b>Ngày sinh:</b> 30/07/2008</p>
+                <p><b>Ngày sinh:</b> 24/06/2008</p>
                 <p><b>Chức vụ:</b> Thành viên</p>
                 <p><b>Sở thích:</b> Ăn chơi ngủ nghỉ</p>
-                <p><b>Mục tiêu :</b> Đỗ nguyện vọng 1</p>
+                <p><b>Mục tiêu :</b> Đỗ báo chí</p>
             </div>
         </div>
         <div class="member">
@@ -139,7 +152,7 @@
                  <p><b>Ngày sinh:</b> 23/09/2008</p>
                 <p><b>Chức vụ:</b> Thành viên</p>
                 <p><b>Sở thích:</b> Rèn luyện thể thao </p>
-                <p><b>Mục tiêu :</b> Cho bố mẹ 1 cuộc sống ấm no, hạnh </p>
+                <p><b>Mục tiêu :</b> Cho bố mẹ 1 cuộc sống ấm no, hạnh phúc</p>
             </div>
         </div>
         <div class="member">
@@ -153,6 +166,37 @@
             </div>
         </div>
     </div>
+</div>
+<div class="section">
+    <div class="sections" id="gopy">
+<h2>📝 Góp ý cho tổ</h2>
+
+<form action="khaosat.io" method="post">
+
+<label>Họ tên:<br>
+<input type="text" name="ten" value=""></label><br><br>
+
+<label>Giới tính:</label><br>
+<input type="radio" name="gt" value="nam"> Nam
+<input type="radio" name="gt" value="nu"> Nữ
+<br>
+
+<label>Loại góp ý:</label><br>
+<input type="checkbox" name="st" value="hoctap"> Học tập
+<input type="checkbox" name="st" value="hoatdongtapthe"> Hoạt động tập thể 
+<input type="checkbox" name="st" value="kiluatnenep"> Kỷ luật-nề nếp
+<input type="checkbox" name="st" value="khac"> khác
+
+<br>
+
+<label>Ý kiến:</label><br>
+<textarea name="yk" rows="4" cols="40"></textarea>
+<br><br>
+
+<input type="submit" value="Gửi">
+
+</form>
+</div>
 </div>
 </body>
 </html>
